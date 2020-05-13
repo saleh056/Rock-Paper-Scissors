@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
+*{
+    direction: ltr;
+    font-family: 'Lalezar', cursive;
+}
+body{
+    background-image: url(Lamp-Wall.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container{
+    width: 70%;
+    border: 8px solid  #00ff00;
+    margin-top: 15%;
+    text-align: center;
+    background-color: white;
+    background-image: url(Lamp-Wall.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+.flex-box-rps{
+    flex-direction: row;
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.flex-box-rps img:hover{
+    box-shadow: 0px 10px 50px rgb(236, 253, 0);
+}
